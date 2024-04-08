@@ -1,5 +1,5 @@
 # Convention Center
-Explore my Convention Center project, crafted with Bootstrap, HTML, and CSS. This assignment demonstrates the integration of Bootstrap's responsive components to create an engaging layout for a convention center. To check out the live link please [click here](https://convention-center08.netlify.app)
+Explore my Convention Center project, crafted with Bootstrap, HTML, and CSS. This assignment demonstrates the integration of Bootstrap's responsive components to create an engaging layout for a convention center. To check out the live link please [click here](https://convention-center08.netlify.app).
 
 ![Screenshot 2024-04-08 225107](https://github.com/Muntasir1808/Convention-center/assets/55915148/27241e12-24c4-404b-9bb7-b922532da205)
 
