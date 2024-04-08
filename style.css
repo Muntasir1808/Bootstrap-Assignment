@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-toggler-icon-custom {
+    background-image: url('/images/menu-2\ 1.png');
+    filter: brightness(0.5);
+}
+
+:root {
+    /* Background Color */
+    --bg-blue: #3F87F5;
+    --bg-white: #fff;
+    --bg-light-white: #f5f5f5;
+
+    /* Text Color */
+    --primary-font: "Poppins", sans-serif;
+    --text-white: #fff;
+    --text-black: #121212;
+    --text-blue: #08BAEE;
+
+}
+
+.btn-primary-rev {
+    background-color: var(--bg-white);
+    color: var(--text-blue);
+}
+
+.btn-primary {
+    background-color: #3F87F5;
+    color: var(--bg-white);
+}
+
+.btn-plan {
+    background-color: rgb(245, 236, 236);
+    color: var(--text-blue);
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    background: var(--bg-white);
+    color: var(--text-black);
+    /* overflow-x:hidden; */
+}
+
+#header .navbar-nav .nav-item .nav-link {
+    color: var(--text-black);
+    padding: 0.5rem 1rem;
+}
+
+
+#header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Home CSS */
+.home .home-banner-1,
+.home .home-banner-2,
+.home .home-banner-3,
+.home .home-banner-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 650px;
+    position: relative;
+    color: var(--text-white);
+}
+
+.home .home-banner-1 {
+    background: url('/images/unsplash_JFAPl7brL6U.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home .home-banner-2 {
+    background: url('/images/2_image-1440x584.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home .home-banner-3 {
+    background: url('/images/3_anniesprattvAD5mhU9JUkunsplash1440x584.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home .home-banner-4 {
+    background: url('/images/4_mage-1440x584.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* pricing */
+.single_price {
+    padding: 2.5rem 1.5rem;
+    position: relative;
+    transition: all .2s ease-out;
+}
+
+
+.check-bg {
+    position: relative;
+    color: #5243C2;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbd9e9;
+    border-radius: 50%;
+    padding: .8rem;
+}
+
+.check-bg-active {
+    position: relative;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5894ed;
+    border-radius: 50%;
+    padding: 0.8rem;
+}
+
+
+.single_price a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 229, 238);
+    height: 45px;
+    width: 207px;
+}
+
+.single_price .doler h2 {
+    font-weight: 700;
+    font-size: 2.813rem;
+}
+
+.single_price .doler h2 span {
+    font-weight: 600;
+    vertical-align: super;
+    padding-right: 0.125rem;
+    font-size: 1.875rem;
+}
+
+.single_price li {
+    list-style: none;
+    padding: 0.313rem 0;
+}
+
+.wedding-basic {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0rem;
+}
+
+.active_price {
+    background: var(--bg-blue);
+    color: var(--text-white);
+    border-radius: 25px;
+    box-shadow: 0px 30px 10px -5px rgb(194, 217, 243);
+}
+
+.active_price h5,
+.active_price .doler h2,
+.active_price .doler-sine {
+    color: var(--text-white);
+}
+
+/* Testimonial */
+.testimonial-container {
+    text-align: center;
+    border: 0px solid #ccc;
+    /* Add border to create gap between testimonials */
+    padding: 15px;
+    /* Add padding for spacing between content and border */
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial-container h6 {
+    color: #666;
+}
+
+.testimonial-container:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-container img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
+/* FAQ */
+.accordion-item {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(148, 199, 227);
+    cursor: pointer;
+}
+.accordion-header button {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-header p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #383838;
+}
+
+.accordion-body p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7E848C;
+}
+
+.accordion-header button.collapsed,
+.accordion-header button[aria-expanded="true"] {
+    color: #333 ; 
+}
+
+  
+
+  
+
+  
+ 
+
+/* Footer */
+#footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+#footer p {
+    color: #8a8a8a;
+}
+
+#footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
